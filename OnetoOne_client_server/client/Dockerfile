@@ -1,4 +1,4 @@
 FROM openjdk:17
-COPY ./MyServer1.class /tmp
+COPY ./MyClient1.class /tmp
 WORKDIR /tmp
-ENTRYPOINT ["java","MyServer1"]
+ENTRYPOINT ["java","MyClient1"]
